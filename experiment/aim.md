@@ -1,1 +1,1 @@
-### Aim of the experiment
+Determination of crystallite size of the polycrystalline sample using Xray diffraction.
