@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    
+    <title>Xrd Virtual lab</title>
+</head>
+<body>
+   
+    <div class="contain">
+        
+        <div class="item">
+            <div class="Intro"><h1>xrd simmulator</h1></div>
+<div class="inst">
+            <h3>Instruction: <span id="p1" style=" color: rgb(255, 255, 255); font-size: 1.8rem; font-weight: 400; "> Welcome in XRD Virtual Lab. Please select specimen. </span> </h3>
+            <h3 > <span class="p2" id="p2" style=" color: rgb(255, 255, 255); font-size: 1.8rem; font-weight: 400; display:none;"> Now please On the machine  </span> </h3>
+            <h3> <span id="p3" style=" color: rgb(255, 255, 255); font-size: 1.8rem; font-weight: 400; display:none;"> Now please open the door  </span> </h3>
+            <h3> <span id="p4" style=" color: rgb(255, 255, 255); font-size: 1.8rem; font-weight: 400; display:none;"> Now please close the door </span> </h3>
+            <h3> <span id="p5" style=" color: rgb(255, 255, 255); font-size: 1.8rem; font-weight: 400; display:none;"> Now please check the standby on button  </span> </h3>
+            <h3> <span id="p6" style=" color: rgb(255, 255, 255); font-size: 1.8rem; font-weight: 400; display:none;"> Now please set start and end angle  </span> </h3>
+            <h3> <span id="p7" style=" color: rgb(255, 255, 255); font-size: 1.8rem; font-weight: 400; display:none;"> Now please select the step size  </span> </h3>
+            <h3> <span id="p8" style=" color: rgb(255, 255, 255); font-size: 1.8rem; font-weight: 400; display:none;"> Now please set the Scanrate  </span> </h3>
+            <h3> <span id="p9" style=" color: rgb(255, 255, 255); font-size: 1.8rem; font-weight: 400; display:none;"> Now please start scanning  </span> </h3>
+        </div><!--inst closer-->
+    </div><!--item closer-->
+    </div><!--contain closer-->
+
+    <!--This is box 1--> 
+    <div class="out-box">
+        <div class="box1 box">
+            <div class="middle"
+            style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <div id="ctl" class="first">
+                <h4>Control panel</h4>
+            </div><!--first cloer-->
+            <div id="box" id="speciman" class="specimen" style="width: 14rem;">
+            <div class="container">
+                <div class="choose">
+                <label class="select" for="options">Specimen</label>
+                <select id="options" class="options" name="options" onchange="enableRadios()">
+                  <option value="">Select sample</option>
+                  <option value="alm">ALUMINIUM</option>
+                  <option value="gla">GLASS</option>
+                  <option value="ppr">PAPER</option>
+                  <option value="snd">SAND</option>
+                  <option value="cpr">COPPER</option>
+                </select>
+            </div><!--chosse closer-->
+              
+                <div class="choose">
+                <label>Start-:</label>
+                <input type="radio" id="radio1" name="radio" value="radio1" disabled onchange="enabledoor()">
+                <label for="radio1">ON</label>
+                
+                <input type="radio" id="radio2" name="radio" value="radio2" disabled>
+                <label for="radio2">OFF</label>
+            </div><!--chosse closer-->
+              </div><!--container closer-->
+              
+                            
+            
+            <div id="door" class="ocdoor">
+                Doors-:<button id="openButton" type="button" name="openclose" class="button-91" disabled onchange="enablestand()">OPEN</button>
+                <button id="closeButton" class="button-91"  >CLOSE</button>
+            </div><!--oc door closer-->
+        </div><!--specimen closer-->
+            <div>
+                <h4>X-Ray Tube</h4>
+            </div>
+            <div id="box" class="xraytube" style="width: 14rem;">
+                <div>
+                <div id="standby" class="xraytube">
+                    StandBy/ON:
+                    <input type="radio" id="standbyRadio" name="standby" value="standby" onchange="enablecounter()" disabled>
+                    <label for="standbyRadio"></label>
+                </div><!--standby closer-->
+                <div class="containers">
+                    <div class="kvbutton">
+                    <button id="kVButton">kV</button>
+                    <div class="counter-box" id="counter-box-1" >
+                      
+
+                    </div>
+                </div><!--kvbutton closer-->
+                <div class="mabutton">
+                    <button id="mAButton">mA</button>
+                    <div class="counter-box" id="counter-box-2"></div>
+                </div><!--mabutton closer-->
+            </div><!--containers closer-->
+            
+            </div><!--divcloser-->
+            </div><!--xray tube closer-->
+                <div><h4>SCAN SETTING</h4></div>
+<div id="box" class="scanset" style="width: 14rem;" >
+<div id="angle" class="scanset">
+    Start angle(2θ):&nbsp;<input  type="number" style="width: 2rem;">
+</div>
+    <div id="end" class="scanset">end angle(2θ):&nbsp;<input  type="number" style="width: 2rem;"></div>
+<div id="size" class="scanset"> <label class="stepSize" for="stepsize">Stepsize:&nbsp;</label>
+    <select name="angle" id="stepsize">
+        <option value="alm">0.005&deg;</option>
+        <option value="gla">0.01&deg;</option>
+        <option value="ppr">0.02&deg;</option>
+    </select>
+</div>
+<div id="rate" class="scanset"> <label for="rate">Scanrate:&nbsp;</label>
+    <select name="angle" id="rate">
+        <option value="alm">0.2&deg;/sec</option>
+        <option value="gla">0.08&deg;/sec</option>
+        <option value="ppr">0.04&deg;/sec</option>
+    </select>
+</div>
+<div id="time" class="scanset" >
+    SCANTIME:&nbsp;<div id="box" style="border: 1px solid black; padding: .1rem; height: .8rem; width: 8rem; display: inline-block;"></div>
+</div>
+   <div><button id="startScan" style="cursor: pointer; border: 2px solid black;margin: .2rem;  padding: .2rem; width: 4rem; border-radius: 3px;">SCAN</button></div>
+</div>
+</div><!--middle closer-->
+</div><!--box1 box closer-->
+     
+
+<!--This is box 2--> 
+<div class="box2 box" style="display: flex;justify-content: center; align-items: center; flex-direction: column;">
+    <h2 style="color: aliceblue;"></h2>
+    
+    <!-- Move the gate div here -->
+    <div id="gate">
+        <div class="door left-door" id="leftDoor"></div>
+        <div class="door right-door" id="rightDoor"></div>
+    </div>
+    
+    <!-- Rest of your content -->
+    
+  
+        <div class="machine" style="position: relative;">
+            <img src="xrd machine.png" alt="XRD Machine" height="100%" width="100%">
+            <img src="Detector.png" class="overlay-image1"  >
+            <img src="source.png" class="overlay-image2" alt="Overlay Image 2">
+            <img src="sample.png" class="overlay-image3" id="sample" alt="Overlay Image 3">
+        
+        
+</div>
+
+        
+    </div>
+
+
+<!--This is box 3--> 
+    <div class="box3 box">
+<img class="graph" src="graph.png" id="graph" style="height: 70%; width:98%; display: none; ">
+</div>
+  <!--This is out-box closer-->   </div>
+
+
+    <script src="page.js">
+      
+    </script>
+    
+        
+  
+    
+</body>
+</html>
