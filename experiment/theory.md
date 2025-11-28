@@ -3,5 +3,6 @@ When Xray interact with crystalline material, diffraction occurs as per Bragg’
 nλ=2dsinθ<br>
 Here, n is the order of diffraction, λ is the wavelength of the X-ray, d is the distance between the crystal planes and θ is the angle of incidence.<br>
 For polycrystalline materials, the small crystallite size and microstrain broaden the diffraction peaks. Generally, the Scherrer equation is utilised to estimate the crystallite size D using broadening of diffraction peaks<br>
-D=Kλ/βCosθ<br>
+<!-- D=Kλ/βCosθ<br> -->
+<img src="img_1.png"><br>
 Here, K is the shape factor (0.9 for spherical particles), λ is the wavelength of the Xray, β is the full-width half maxima (FWHM) of the diffraction peak in radians and θ is the Bragg angle.
