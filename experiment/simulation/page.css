@@ -5,10 +5,9 @@
     height: 70px;
     text-align: center;
     padding: .2%;
-column-gap: 3%;
+    column-gap: 3%;
 }
 .contain{
-    
     margin-bottom:0.1rem;
 }
 h1{
@@ -21,11 +20,9 @@ h1{
     background-color: #080808;
     padding: .5%;
     border-radius: 20px;
-    
 }
 h3{
     color: rgb(255, 255, 255);
-    
 }
 .out-box{
     position: relative;
@@ -36,9 +33,8 @@ h3{
     border-color: rgb(215, 215, 215);
     border-width: 20%;
     padding: .2%;
-
-}.box{
-   
+}
+.box{
     height: 95vh;
     width: 33.3%;
     background-color: rgb(197, 197, 197);
@@ -47,17 +43,14 @@ h3{
     border-style: solid;
     border-color: black;
     border-width: 20%;
- flex: 1;
+    flex: 1;
     background-size: contain;
-    
 }
 .select{
     font-size: medium;
     display: flex;
-    
     margin: 2%;
     text-transform: uppercase;
-    
 }
 .options{
     width: 65%;
@@ -68,56 +61,46 @@ h3{
     background-color:rgb(49, 63, 52);
     color: white;
     padding: .5rem;
-    width: 15rem;
+    width: 14rem;
     border-radius: 8px;
     margin: 1px;
 }
-.radio{
-    border: 2px solid rgb(116, 160, 125);
-    background-color:rgb(49, 63, 52);
-    color: white;
-  padding: .5rem;
-  width: 13rem;
-  border-radius: 8px;
-  margin: 1px;
-}
 .choose{
-  display: flex;
-  margin: 3%;
+    display: flex;
+    margin: 3%;
 }
 
 .container{
-  display: flex;
-  flex-direction: column;
-  border: 2px solid rgb(116, 160, 125);
-      background-color:rgb(49, 63, 52);
-      color: white;
-  padding: .5rem;
-  width: 13rem;
-  border-radius: 8px;
-  margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(116, 160, 125);
+    background-color:rgb(49, 63, 52);
+    color: white;
+    padding: .5rem;
+    width: 13rem;
+    border-radius: 8px;
+    margin: 1px;
 }
 .ocdoor{
     border: 2px solid rgb(116, 160, 125);
     background-color:rgb(49, 63, 52);
     color: white;
-  padding: .5rem;
-  width: 13rem;
-  border-radius: 8px;
-  margin: 1px;
+    padding: .5rem;
+    width: 13rem;
+    border-radius: 8px;
+    margin: 1px;
 }
 .containers {
     display: flex;
     flex-direction: row;
     align-items: center;
- 
 }
 
 /* CSS for the counter boxes */
 .counter-box {
     width: 30px;
     height: 2.8vh;
-   color: black;
+    color: black;
     background-color: #f2f2f2;
     border: 1px solid #a0a0a0;
     display: flex;
@@ -145,15 +128,12 @@ h3{
     border-width: 20%;
     flex: 2;
     background-size: contain;
-   
 }
 .box3{
     border-style: solid;
     border-color: black;
     border-width: 20%;
- 
     background-size: contain;
-   
 }
 .box3 {
     align-items: center; 
@@ -167,33 +147,30 @@ h3{
     border: 2px solid rgb(116, 160, 125);
     background-color:rgb(49, 63, 52);
     color: white;
-      padding: .5rem;
-      width: 13rem;
-      border-radius: 8px;
-      margin: 1px;
+    padding: .5rem;
+    width: 13rem;
+    border-radius: 8px;
+    margin: 1px;
 }
 .scanset{
-      border: 2px solid rgb(116, 160, 125);
-      background-color:rgb(49, 63, 52);
-      color: white;
-      padding: .5rem;
-      
-      width: 13rem;
-      border-radius: 8px;
-      margin: 1px;
+    border: 2px solid rgb(116, 160, 125);
+    background-color:rgb(49, 63, 52);
+    color: white;
+    padding: .5rem;
+    width: 13rem;
+    border-radius: 8px;
+    margin: 1px;
 }
 h4{
     color: white;
-     border: 2pxsolid rgb(233, 204, 41);
-     background-color: rgb(42, 83, 53);
-     padding: .5rem;
-     margin: auto;
-     width: 8rem;
-     border-radius: 4px;
-     margin: 1px;
-      
+    border: 2px solid rgb(233, 204, 41);
+    background-color: rgb(42, 83, 53);
+    padding: .5rem;
+    margin: auto;
+    width: 8rem;
+    border-radius: 4px;
+    margin: 1px;
 }
-
 
 @media(max-width:1700px){
     #gate {
@@ -209,116 +186,107 @@ h4{
     }
 }
 
-
 .button-91 {
-  align-items: center;
-  background-color: initial;
-  background-image: linear-gradient(#464d55, #25292e);
-  border-radius: 8px;
-  border-width: 0;
-  box-shadow: 0 10px 20px rgba(103, 228, 57, 0.1),0 3px 6px rgba(0, 0, 0, .05);
-  box-sizing: border-box;
-  color: #ffffff;
-  cursor: pointer;
-  display: inline-flex;
-  flex-direction: column;
-  font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 18px;
-  height: 40px;
-  width: 35%;
-  justify-content: center;
-  line-height: 1;
-  margin: 0;
-  outline: none;
-  overflow: hidden;
-  padding: 0 32px;
-  text-align: center;
-  text-decoration: none;
-  transform: translate3d(0, 0, 0);
-  transition: all 150ms;
-  vertical-align: baseline;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+    align-items: center;
+    background-color: initial;
+    background-image: linear-gradient(#464d55, #25292e);
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(103, 228, 57, 0.1),0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 18px;
+    height: 40px;
+    width: 35%;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 32px;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all 150ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .button-91:hover {
-  box-shadow: rgba(95, 241, 95, 0.2) 0 2px 8px;
-  opacity: .85;
+    box-shadow: rgba(95, 241, 95, 0.2) 0 2px 8px;
+    opacity: .85;
 }
 
 .button-91:active {
-  outline: 0;
+    outline: 0;
 }
 
 .button-91:focus {
-  box-shadow: rgba(214, 62, 62, 0.5) 0 0 0 3px;
+    box-shadow: rgba(214, 62, 62, 0.5) 0 0 0 3px;
 }
 
 @media (max-width: 420px) {
-  .button-91 {
-    height: 48px;
-  }
+    .button-91 {
+        height: 48px;
+    }
 }
+
 .machine{
     position: absolute;
     width: 82%;
     max-width: 100%;
     height: 90%;
-    
     z-index: 1;
 }
+
 .machine img{
     max-width: 100%;
-    
-
 }
+
 .overlay-image3 {
     display: none;
     position: relative;
     height: 10%;
     z-index: 3;
-    top: -62%; /* Initial position */
+    top: -62%;
     left: 39%;
-    
 }
 
 .overlay-image1 {
     position: absolute;
-    top: 28%; /* Adjust the top position as needed */
-    left: 69%; /* Adjust the left position as needed */
-    /* You can use other properties like right or bottom if needed */
-    width: 19%; /* Adjust the width as needed */
-     height: 15%;/* Adjust the height as needed */
-    z-index: 2; /* Make sure it's above the main image (z-index can be adjusted) */
-    /* Add any other styling you need for the overlay images */
+    top: 28%;
+    left: 69%;
+    width: 19%;
+    height: 15%;
+    z-index: 2;
 }
+
 .overlay-image2 {
     position: absolute;
-    top: 25%;  /* Adjust the top position as needed */
-    left: -2%; /* Adjust the left position as needed */
-    /* You can use other properties like right or bottom if needed */
-    width: 40%; /* Adjust the width as needed */
-    height: 28%;/* Adjust the height as needed */
-    z-index: 2; /* Make sure it's above the main image (z-index can be adjusted) */
-    /* Add any other styling you need for the overlay images */
+    top: 25%;
+    left: -2%;
+    width: 40%;
+    height: 28%;
+    z-index: 2;
 }
+
 #gate {
     position: absolute;
-    top:14.5%; /* Adjust the top position as needed */
-    left: 29%; /* Adjust the left position as needed */
-    /* You can use other properties like right or bottom if needed */
+    top: 14.5%;
+    left: 29%;
     display: flex;
     width: 30.5%;
     height: 43.5%;
     overflow: hidden;
     z-index: 999;
-    /* Add any other styling you need for the gate */
 }
-
-/* Rest of your CSS styles */
-
 
 .door {
     border-style: solid;
@@ -342,4 +310,77 @@ h4{
 
 .right-door.opened {
     transform: scaleX(0);
+}
+
+/* Fix for the graph display */
+#graphContainer {
+    display: none;
+    height: 70%;
+    width: 98%;
+}
+
+#graphCanvas {
+    height: 100%;
+    width: 100%;
+    background: white;
+    border: 1px solid black;
+}
+
+/* Fix for results display */
+#results {
+    display: none;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/* Fix for scan time display */
+#scanTimeDisplay {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 0.2rem;
+}
+
+/* Fix button states */
+.button-91:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+input:disabled, select:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ========= XRD Source & Detector Animation ======== */
+
+/* Source (left head) */
+#source {
+    position: absolute;
+    z-index: 5;
+    animation-timing-function: linear;
+}
+
+/* Detector (right head) */
+#detector {
+    position: absolute;
+    z-index: 5;
+    animation-timing-function: linear;
+}
+
+/* Source animation — moves up & tilts */
+@keyframes moveUpDown {
+    0% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-15px) rotate(25deg); }
+    100% { transform: translateY(-30px) rotate(25deg); }
+}
+
+/* Detector animation — moves up & tilts opposite */
+@keyframes oppMoveUpDown {
+    0% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(-15deg); }
+    100% { transform: translateY(-20px) rotate(-15deg); }
 }
