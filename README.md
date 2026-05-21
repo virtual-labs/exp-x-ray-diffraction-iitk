@@ -22,4 +22,4 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Kamini Singh | Student | Computer Science | BU Jhansi | sengerkamini2002@gmail.com
 2 | Swati Mahto | Student | MSE  |  IIT Kanpur | mahtoswati7@gmail.com
-3 | Khushboo Singh | MSE |  Employee |  IIT Kanpur | skhushboo@iitk.ac.in
+3 | Khushboo Singh | Employee |  MSE |  IIT Kanpur | skhushboo@iitk.ac.in
