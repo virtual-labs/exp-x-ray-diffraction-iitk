@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1 What is the typical value of the shape factor (K) for spherical particles in the Scherrer equation?",
+      "answers": {
+        "a": "0.7",
+        "b": "0.8",
+        "c": "0.9",
+        "d": "1.0"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2 In the Scherrer equation, what does 'β' represent?",
+      "answers": {
+        "a": "The wavelength of the X-ray",
+        "b": "The order of diffraction",
+        "c": "The full-width half maxima (FWHM) of the diffraction peak",
+        "d": "The distance between crystal planes"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3 According to Bragg's law, what is the relationship between the angle of incidence (θ) and the wavelength (λ) of the X-ray for a given order of diffraction?",
+      "answers": {
+        "a": "λ = 2dsinθ",
+        "b": "nλ = 2dcosθ",
+        "c": "nλ = 2dsinθ",
+        "d": "nλ = dsinθ"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4 The Scherrer equation estimates crystallite size using the broadening of diffraction peaks. What is this broadening primarily influenced by?",
+      "answers": {
+        "a": "Crystal defects",
+        "b": "Sample thickness",
+        "c": "Microstrain and crystallite size",
+        "d": "Temperature of the sample"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
