@@ -7,4 +7,4 @@ For polycrystalline materials, both small crystallite size and microstrain contr
  D=Kλ / (βCosθ)<br> 
 <!--<img src="img_1.png"><br> -->
 
-Here, K is the shape factor (0.9 for spherical particles), λ is the wavelength of the Xray, β is the full-width half maxima (FWHM) of the diffraction peak in radians and θ is the Bragg angle.
+Here, K is the shape factor (0.9 for spherical particles), λ is the wavelength of the X-ray, β is the full-width half maxima (FWHM) of the diffraction peak in radians and θ is the Bragg angle.
