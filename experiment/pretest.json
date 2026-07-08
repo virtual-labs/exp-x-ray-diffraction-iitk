@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1 What is X-ray diffraction (XRD) primarily used for in the study of metals and alloys?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Measuring electrical conductivity",
+        "b": "Estimating structural properties",
+        "c": "Determining magnetic properties",
+        "d": "Analyzing chemical composition"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,33 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2 Which of the following parameters can be estimated from the XRD plot (I vs. 2θ)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Electrical resistivity, microstrain, crystallite size",
+        "b": "Crystallite size, microstrain, dislocation density",
+        "c": "Thermal conductivity, microstrain, crystallite size",
+        "d": "Magnetic susceptibility, dislocation density, crystallite size"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3 Which equation is commonly used to estimate crystallite size from XRD data?",
+      "answers": {
+        "a": "Bragg's Law",
+        "b": "Debye-Scherrer Equation",
+        "c": "Scherrer Equation",
+        "d": "Fourier's Law"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +50,57 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4 In Bragg's Law, what does the variable 'd' represent?",
+      "answers": {
+        "a": "The angle of incidence",
+        "b": "The distance between crystal planes",
+        "c": "The wavelength of the X-ray",
+        "d": "The order of diffraction"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5 What effect do small crystallite size and microstrain generally have on the diffraction peaks in XRD analysis?",
+      "answers": {
+        "a": "Narrow the diffraction peaks",
+        "b": "Shift the diffraction peaks",
+        "c": "Broaden the diffraction peaks",
+        "d": "Eliminate the diffraction peaks"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6 In the Scherrer equation, which of the following factors does 'K' represent?",
+      "answers": {
+        "a": "The wavelength of the X-ray",
+        "b": "The shape factor",
+        "c": "The full-width half maxima (FWHM)",
+        "d": "The Bragg angle"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

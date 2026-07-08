@@ -1,0 +1,345 @@
+.item{
+    display: flex;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(215, 215, 215);
+    height: 70px;
+    text-align: center;
+    padding: .2%;
+column-gap: 3%;
+}
+.contain{
+    
+    margin-bottom:0.1rem;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.inst{
+    width: 70%;
+    display: flex;
+    background-color: #080808;
+    padding: .5%;
+    border-radius: 20px;
+    
+}
+h3{
+    color: rgb(255, 255, 255);
+    
+}
+.out-box{
+    position: relative;
+    display: flex;
+    height: fit-content;
+    width: auto;
+    border-style: solid;
+    border-color: rgb(215, 215, 215);
+    border-width: 20%;
+    padding: .2%;
+
+}.box{
+   
+    height: 95vh;
+    width: 33.3%;
+    background-color: rgb(197, 197, 197);
+}
+.box1{
+    border-style: solid;
+    border-color: black;
+    border-width: 20%;
+ flex: 1;
+    background-size: contain;
+    
+}
+.select{
+    font-size: medium;
+    display: flex;
+    
+    margin: 2%;
+    text-transform: uppercase;
+    
+}
+.options{
+    width: 65%;
+}
+
+.specimen{
+    border: 2px solid rgb(116, 160, 125);
+    background-color:rgb(49, 63, 52);
+    color: white;
+    padding: .5rem;
+    width: 15rem;
+    border-radius: 8px;
+    margin: 1px;
+}
+.radio{
+    border: 2px solid rgb(116, 160, 125);
+    background-color:rgb(49, 63, 52);
+    color: white;
+  padding: .5rem;
+  width: 13rem;
+  border-radius: 8px;
+  margin: 1px;
+}
+.choose{
+  display: flex;
+  margin: 3%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(116, 160, 125);
+      background-color:rgb(49, 63, 52);
+      color: white;
+  padding: .5rem;
+  width: 13rem;
+  border-radius: 8px;
+  margin: 1px;
+}
+.ocdoor{
+    border: 2px solid rgb(116, 160, 125);
+    background-color:rgb(49, 63, 52);
+    color: white;
+  padding: .5rem;
+  width: 13rem;
+  border-radius: 8px;
+  margin: 1px;
+}
+.containers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+
+/* CSS for the counter boxes */
+.counter-box {
+    width: 30px;
+    height: 2.8vh;
+   color: black;
+    background-color: #f2f2f2;
+    border: 1px solid #a0a0a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.kvbutton{
+    margin: 2%;
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+.mabutton{
+    margin: 2%;
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    border-style: solid;
+    border-color: black;
+    border-width: 20%;
+    flex: 2;
+    background-size: contain;
+   
+}
+.box3{
+    border-style: solid;
+    border-color: black;
+    border-width: 20%;
+ 
+    background-size: contain;
+   
+}
+.box3 {
+    align-items: center; 
+    justify-content: center;
+}
+h3{
+    padding: 2px;
+}
+
+.xraytube{
+    border: 2px solid rgb(116, 160, 125);
+    background-color:rgb(49, 63, 52);
+    color: white;
+      padding: .5rem;
+      width: 13rem;
+      border-radius: 8px;
+      margin: 1px;
+}
+.scanset{
+      border: 2px solid rgb(116, 160, 125);
+      background-color:rgb(49, 63, 52);
+      color: white;
+      padding: .5rem;
+      
+      width: 13rem;
+      border-radius: 8px;
+      margin: 1px;
+}
+h4{
+    color: white;
+     border: 2pxsolid rgb(233, 204, 41);
+     background-color: rgb(42, 83, 53);
+     padding: .5rem;
+     margin: auto;
+     width: 8rem;
+     border-radius: 4px;
+     margin: 1px;
+      
+}
+
+
+@media(max-width:1700px){
+    #gate {
+        top: 53.7rem;
+    }
+    .major{
+        display: flex;
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+    .col1,.col2,.col3{
+        width: 100%;
+    }
+}
+
+
+.button-91 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: 0 10px 20px rgba(103, 228, 57, 0.1),0 3px 6px rgba(0, 0, 0, .05);
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 18px;
+  height: 40px;
+  width: 35%;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-91:hover {
+  box-shadow: rgba(95, 241, 95, 0.2) 0 2px 8px;
+  opacity: .85;
+}
+
+.button-91:active {
+  outline: 0;
+}
+
+.button-91:focus {
+  box-shadow: rgba(214, 62, 62, 0.5) 0 0 0 3px;
+}
+
+@media (max-width: 420px) {
+  .button-91 {
+    height: 48px;
+  }
+}
+.machine{
+    position: absolute;
+    width: 82%;
+    max-width: 100%;
+    height: 90%;
+    
+    z-index: 1;
+}
+.machine img{
+    max-width: 100%;
+    
+
+}
+.overlay-image3 {
+    display: none;
+    position: relative;
+    height: 10%;
+    z-index: 3;
+    top: -62%; /* Initial position */
+    left: 39%;
+    
+}
+
+.overlay-image1 {
+    position: absolute;
+    top: 28%; /* Adjust the top position as needed */
+    left: 69%; /* Adjust the left position as needed */
+    /* You can use other properties like right or bottom if needed */
+    width: 19%; /* Adjust the width as needed */
+     height: 15%;/* Adjust the height as needed */
+    z-index: 2; /* Make sure it's above the main image (z-index can be adjusted) */
+    /* Add any other styling you need for the overlay images */
+}
+.overlay-image2 {
+    position: absolute;
+    top: 25%;  /* Adjust the top position as needed */
+    left: -2%; /* Adjust the left position as needed */
+    /* You can use other properties like right or bottom if needed */
+    width: 40%; /* Adjust the width as needed */
+    height: 28%;/* Adjust the height as needed */
+    z-index: 2; /* Make sure it's above the main image (z-index can be adjusted) */
+    /* Add any other styling you need for the overlay images */
+}
+#gate {
+    position: absolute;
+    top:14.5%; /* Adjust the top position as needed */
+    left: 29%; /* Adjust the left position as needed */
+    /* You can use other properties like right or bottom if needed */
+    display: flex;
+    width: 30.5%;
+    height: 43.5%;
+    overflow: hidden;
+    z-index: 999;
+    /* Add any other styling you need for the gate */
+}
+
+/* Rest of your CSS styles */
+
+
+.door {
+    border-style: solid;
+    border-color: #848383;
+    border-width: 10%;
+    flex: 1;
+    background-color: transparent;
+    transition: transform 1s ease;
+    transform-origin: left center;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+.right-door {
+    transform-origin: right center;
+}
+
+.left-door.opened {
+    transform: scaleX(0);
+}
+
+.right-door.opened {
+    transform: scaleX(0);
+}
